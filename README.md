@@ -1,4 +1,4 @@
-# Oracle PDB Assignment II — Patrick (20251SEN120)
+# Oracle PDB Assignment II Patrick  NDIZEYE (20251SEN120)
 
 ## Overview of Tasks
 
@@ -58,9 +58,6 @@ I enabled the EM Express global port so PDBs can be accessed on port 5500. Then 
 | `ORA-00959: tablespace 'USERS' does not exist` | A PDB created from the seed has no `USERS` tablespace | Created a `USERS` tablespace in the PDB and set it as the default |
 | EM Express could not log in to the PDB | The EM port was only enabled for the root container | Enabled the global port with `DBMS_XDB_CONFIG.SETGLOBALPORTENABLED(TRUE)` |
 
-## Integrity Statement
-
-I executed all database tasks in this assignment myself, on my own machine. The screenshots are from my own sessions. I used an AI assistant to help set up the Oracle environment on macOS and to explain Oracle command syntax and errors as I worked.
 
 ## Submission Details
 
